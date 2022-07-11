@@ -1,0 +1,107 @@
+#title:hover {
+              animation-delay: 0s, .5s;
+              transform: rotateX(45deg);
+}
+
+#title {
+              width: 100px;
+              height: 100px;
+              background: red;
+              position: relative;
+              animation-delay: 0s, 1s, 2s, 3s, 4s, 5s, 6s, 7s, 8s, 9s, 10s, 11s, 12s, 13s;
+              animation-name: k, l, m, n, o, p, q, r, k, l, m, n, o, p, q, r;
+              animation-duration: 1s;
+}
+
+@keyframes k {
+              from {
+                            left: 0px;
+                            transform: rotateZ(0deg);
+              }
+
+              to {
+                            left: 200px;
+                            transform: rotateZ(45deg);
+              }
+}
+
+@keyframes l {
+              from {
+                            left: 200px;
+                            transform: rotateZ(45deg);
+              }
+
+              to {
+                            left: 0px;
+                            transform: rotateZ(90deg);
+              }
+}
+@keyframes m {
+              from {
+                            left: 0px;
+                            transform: rotateZ(90deg);
+              }
+
+              to {
+                            left: 200px;
+                            transform: rotateZ(135deg);
+              }
+}
+
+@keyframes n {
+              from {
+                            left: 200px;
+                            transform: rotateZ(135deg);
+              }
+
+              to {
+                            left: 0px;
+                            transform: rotateZ(180deg);
+              }
+}
+@keyframes o {
+              from {
+                            left: 0px;
+                            transform: rotateZ(180deg);
+              }
+
+              to {
+                            left: 200px;
+                            transform: rotateZ(225deg);
+              }
+}
+
+@keyframes p {
+              from {
+                            left: 200px;
+                            transform: rotateZ(225deg);
+              }
+
+              to {
+                            left: 0px;
+                            transform: rotateZ(270deg);
+              }
+}
+@keyframes q {
+              from {
+                            left: 0px;
+                            transform: rotateZ(270deg);
+              }
+
+              to {
+                            left: 200px;
+                            transform: rotateZ(315deg);
+              }
+}
+
+@keyframes r {
+              from {
+                            left: 200px;
+                            transform: rotateZ(315deg);
+              }
+
+              to {
+                            left: 0px;
+                            transform: rotateZ(360deg);
+              }
+}
